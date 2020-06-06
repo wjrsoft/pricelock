@@ -40,7 +40,7 @@ public class GetCNYPrice {
 		return json;
 	}
 	
-	
+//
 	public String getPrice(String json) {
 		JSONObject jsonObject = JSONObject.parseObject(json);
 		Object obj = jsonObject.get("records");
