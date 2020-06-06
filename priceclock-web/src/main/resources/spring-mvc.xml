@@ -26,47 +26,6 @@
 		<property name="prefix" value="/WEB-INF/views/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
-
-
-	<!-- <mvc:interceptors>
-		<mvc:interceptor>
-			<mvc:mapping path="/*" />
-			<mvc:mapping path="/*/*" />
-			<mvc:exclude-mapping path="/wx.do" />
-			<mvc:exclude-mapping path="/login" />
-			<mvc:exclude-mapping path="/toLogin" />
-			<mvc:exclude-mapping path="/login.do" />
-			<mvc:exclude-mapping path="/toLogin.do" />
-			<mvc:exclude-mapping path="/reg.do" />
-			<mvc:exclude-mapping path="/reg" />
-			<mvc:exclude-mapping path="/toReg.do" />
-			<mvc:exclude-mapping path="/toReg" />
-			<mvc:exclude-mapping path="/*.js" />
-			<mvc:exclude-mapping path="/*/*.js" />
-			<mvc:exclude-mapping path="/*.css" />
-			<mvc:exclude-mapping path="/*/*.css" />
-			<mvc:exclude-mapping path="/*.jpg" />
-			<mvc:exclude-mapping path="/*/*.jpg" />
-			<mvc:exclude-mapping path="/*/*.html" />
-			<mvc:exclude-mapping path="/*.html" />
-			<mvc:exclude-mapping path="/temp.do" />
-			<mvc:exclude-mapping path="/marginPriceWeb.do" />
-			<mvc:exclude-mapping path="/marginPriceWeb" />
-			<mvc:exclude-mapping path="/getMarginPrice.do" />
-			<mvc:exclude-mapping path="/getMarginPrice" />
-			
-			
-			<bean class="com.wonder.filter.OAuthInterceptor" />
-		</mvc:interceptor>
-	</mvc:interceptors>
-	<mvc:resources location="/" mapping="/**/*.js" />
-	<mvc:resources location="/" mapping="/*.js" />
-	<mvc:resources location="/" mapping="/**/*.css" />
-	<mvc:resources location="/" mapping="/**/*.ttf" />
-	<mvc:resources location="/image/" mapping="/image/*"  cache-period="360000" />
-	<mvc:resources location="/js/" mapping="/js/*"  cache-period="360000" />
-	<mvc:resources location="/js/" mapping="/mui/*"  cache-period="360000" />
-	<mvc:resources location="/js/" mapping="/weui/*"  cache-period="360000" /> -->
 	
 </beans>
 
